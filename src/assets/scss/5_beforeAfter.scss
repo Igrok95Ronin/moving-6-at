@@ -1,0 +1,24 @@
+.beforeAfter {
+    padding: 0 0 35px;
+}
+.beforeAfter__title {
+    background-color: $mainColor;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 5px;
+    text-align: center;
+}
+.beforeAfter__box {
+}
+.beforeAfter__name {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 5px;
+}
+.beforeAfter__wrapper {
+}
+.beforeAfter__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
