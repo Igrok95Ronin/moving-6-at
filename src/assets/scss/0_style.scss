@@ -71,3 +71,11 @@ $btnColor2 : #ff8845;
         color: #fff;
     }  
 }
+@mixin btnM {
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: $btnColor2;
+    padding: 10px 15px;
+    border-radius: 10px;
+}

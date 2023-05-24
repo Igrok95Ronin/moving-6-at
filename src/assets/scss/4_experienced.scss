@@ -1,0 +1,25 @@
+.experienced {
+    padding: 0 0 35px;
+}
+.experienced__box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.experienced__wrapper {
+}
+.experienced__title {
+    font-weight: 700;
+    color: $mainColor;
+    margin-bottom: 10px;
+}
+.experienced__txt {
+    line-height: 26px;
+}
+.experienced__btnMW {
+    text-align: center;
+    margin-top: 20px;
+}
+.experienced__btnM {
+    @include btnM;
+}
