@@ -1,0 +1,83 @@
+.header {
+    padding: 5px 0 35px;
+}
+.header__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.header__left {
+}
+.header__imgW {
+}
+.header__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header__title {
+    font-size: clamp(32px,5vw,60px);
+    background-color: $mainColor;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 5px;
+}
+.header__right {
+    padding: 0 10px;
+}
+.header__price {
+    background-color: #cf4242;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 30px;
+    span{
+        font-size: 30px;
+    }
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/ok6.png);
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        right: -15px;
+        bottom: -15px;
+    }
+}
+.header__ul {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    li{
+        padding-left: 30px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../img/55.png);
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+.header__txt {
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.header__btnW {
+    text-align: center;
+}
+.header__btn {
+    @include btn;
+}
